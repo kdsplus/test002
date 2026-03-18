@@ -1,0 +1,359 @@
+{
+  "timestamp": "2026-03-18T14:49:24.772Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-18T14:46:01.240Z",
+    "activeFeatures": [
+      "generate",
+      "proposals",
+      "[id]",
+      "prompts",
+      "test002",
+      "layout",
+      "UrlInputCard.tsx",
+      "GeneratedProposalCard.tsx",
+      "RecentProposalsList.tsx",
+      "PromptEditor.tsx",
+      "settings"
+    ],
+    "primaryFeature": "generate",
+    "features": {
+      "generate": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:08:34.095Z",
+          "lastUpdated": "2026-03-18T14:21:14.847Z"
+        },
+        "lastFile": "c:\\prj\\test002\\src\\app\\api\\proposals\\generate\\route.ts"
+      },
+      "proposals": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:08:40.833Z",
+          "lastUpdated": "2026-03-18T14:20:54.649Z"
+        },
+        "lastFile": "c:\\prj\\test002\\src\\app\\api\\proposals\\route.ts"
+      },
+      "[id]": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:08:46.498Z",
+          "lastUpdated": "2026-03-18T14:21:17.413Z"
+        },
+        "lastFile": "c:\\prj\\test002\\src\\app\\api\\prompts\\[id]\\route.ts"
+      },
+      "prompts": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:08:52.154Z",
+          "lastUpdated": "2026-03-18T14:21:02.349Z"
+        },
+        "lastFile": "c:\\prj\\test002\\src\\app\\api\\prompts\\route.ts"
+      },
+      "test002": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:08:53.839Z",
+          "lastUpdated": "2026-03-18T14:46:01.240Z"
+        },
+        "lastFile": "c:\\prj\\test002\\src\\lib\\openrouter.ts"
+      },
+      "layout": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:10:21.274Z",
+          "lastUpdated": "2026-03-18T14:10:28.060Z"
+        },
+        "lastFile": "c:/prj/test002/src/components/layout/MobileNav.tsx"
+      },
+      "UrlInputCard.tsx": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:10:41.754Z",
+          "lastUpdated": "2026-03-18T14:10:41.754Z"
+        },
+        "lastFile": "c:/prj/test002/src/components/features/UrlInputCard.tsx"
+      },
+      "GeneratedProposalCard.tsx": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:10:51.561Z",
+          "lastUpdated": "2026-03-18T14:10:51.561Z"
+        },
+        "lastFile": "c:/prj/test002/src/components/features/GeneratedProposalCard.tsx"
+      },
+      "RecentProposalsList.tsx": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:11:14.111Z",
+          "lastUpdated": "2026-03-18T14:11:14.111Z"
+        },
+        "lastFile": "c:/prj/test002/src/components/features/RecentProposalsList.tsx"
+      },
+      "PromptEditor.tsx": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:11:34.337Z",
+          "lastUpdated": "2026-03-18T14:11:34.337Z"
+        },
+        "lastFile": "c:/prj/test002/src/components/features/PromptEditor.tsx"
+      },
+      "settings": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-18T14:12:43.310Z",
+          "lastUpdated": "2026-03-18T14:12:43.310Z"
+        },
+        "lastFile": "c:/prj/test002/src/app/settings/page.tsx"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-03-18T12:43:47.431Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-03-18T14:46:01.240Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-03-18T14:08:34.095Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:08:40.833Z",
+        "feature": "proposals",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:08:46.498Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:08:52.154Z",
+        "feature": "prompts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:08:53.839Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:08:56.811Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:09:09.175Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:09:10.583Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:09:14.587Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:09:19.916Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:09:21.340Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:10:21.274Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:10:28.060Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:10:41.754Z",
+        "feature": "UrlInputCard.tsx",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:10:51.561Z",
+        "feature": "GeneratedProposalCard.tsx",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:11:14.111Z",
+        "feature": "RecentProposalsList.tsx",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:11:34.337Z",
+        "feature": "PromptEditor.tsx",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:11:56.003Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:12:14.029Z",
+        "feature": "proposals",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:12:35.143Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:12:43.310Z",
+        "feature": "settings",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:14:10.698Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:14:21.114Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:20:54.649Z",
+        "feature": "proposals",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:21:02.349Z",
+        "feature": "prompts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:21:03.502Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:21:14.847Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:21:17.413Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:44:45.776Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-18T14:46:01.240Z",
+        "feature": "test002",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}

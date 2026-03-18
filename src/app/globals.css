@@ -83,37 +83,51 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  --background: oklch(0.07 0 0);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
+  --card: oklch(0.15 0 0 / 70%);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
+  --popover: oklch(0.15 0 0 / 85%);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
+  --primary-foreground: oklch(0.145 0 0);
+  --secondary: oklch(0.2 0 0);
   --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
+  --muted: oklch(0.2 0 0);
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
+  --accent: oklch(0.2 0 0);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
+  --border: oklch(1 0 0 / 8%);
+  --input: oklch(1 0 0 / 12%);
   --ring: oklch(0.556 0 0);
   --chart-1: oklch(0.809 0.105 251.813);
   --chart-2: oklch(0.623 0.214 259.815);
   --chart-3: oklch(0.546 0.245 262.881);
   --chart-4: oklch(0.488 0.243 264.376);
   --chart-5: oklch(0.424 0.199 265.638);
-  --sidebar: oklch(0.205 0 0);
+  --sidebar: oklch(0.09 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-primary: oklch(0.922 0 0);
+  --sidebar-primary-foreground: oklch(0.145 0 0);
+  --sidebar-accent: oklch(0.2 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-border: oklch(1 0 0 / 8%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+.glass {
+  background: rgba(26, 26, 26, 0.7);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-strong {
+  background: rgba(20, 20, 20, 0.85);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 @layer base {
@@ -122,8 +136,41 @@
   }
   body {
     @apply bg-background text-foreground;
+    background: #0a0a0a;
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(40, 40, 40, 0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(30, 30, 30, 0.2) 0%, transparent 50%);
+    min-height: 100dvh;
   }
   html {
     @apply font-sans;
   }
+}
+
+/* Markdown 테이블 스타일 (다크 테마) */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.prose thead th {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.prose tbody td {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.prose tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
