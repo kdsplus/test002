@@ -1,0 +1,9 @@
+1. URL을 입력하면 원하는 양식의 제안서 생성
+2. 기본 AI 프롬프트를 수정하는 기능
+3. 배포해서 다른 사람과 공유하고 싶다. (vercel)
+4. 디자인 컨셉 : Glassmorphism, Monochrome
+5. Openrouter API 활용 (Medel : Opus 4.6)
+6. Supabase DB
+7. 회원 가입은 없음
+8. 과도한 기능 없이 순차적으로 하나씩 구현하면서 진행
+9. 참고 이미지를 토대로 디자인 컨셉 구성
