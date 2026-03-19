@@ -14,3 +14,24 @@ next
 
 openrouter api key는 .env 파일에 저장되어 있습니다.
 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
+
+supabase 연결할건데 supabase cli로 연결해줘
+
+supabse token : sbp_7507f64eadf6a0a3a189239f81244bedb116c0c3
+test002/dkagh!02!@*&
+
+로그인 완료했어 조직, 프로젝트, 데이터 테이블까지 만들어서 진행해주세요.
+
+유료 openrouter에서 무료 모델 5가지를 돌려가면서 테스트할 수 있도록 수정
+
+제안서 생성 결과 내용에 |---|--- 이렇게 나오는 부분들이 있는데 markdown 파일이 잘 나올 수 있도록 수정해줘~
+
+github cli로 로그인
+gh auth login
+
+github에 test002 레파지토리를 구성해서 push해줘
+
+github과 vercel을 연결해서 배포해 줄 수 있나요?
+
+vercel cli로 로그인
+vercel login
