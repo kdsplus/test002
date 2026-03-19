@@ -73,9 +73,10 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ proposal });
   } catch (error) {
-    console.error('Generate error:', error);
+    const errMsg = error instanceof Error ? error.message : String(error);
+    console.error('Generate error:', errMsg, error);
     return NextResponse.json(
-      { error: '제안서 생성 중 오류가 발생했습니다.' },
+      { error: `제안서 생성 중 오류가 발생했습니다: ${errMsg}` },
       { status: 500 }
     );
   }
